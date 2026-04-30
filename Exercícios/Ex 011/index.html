@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens dinâmicas</title>
+</head>
+<body>
+    <h1>Vamos começar a colcocar imagens dinâmicas no site</h1>
+    <p>Elas mudam de tamanho para se adaptarem a celulares, tablet ou telas de computadores</p>
+    <picture>
+        <source media="(min-width: 750px)" srcset="IRPF2025 (1).webp" type="image/">
+        <source media="(max-width: 1050px)" srcset="IMG_9455.JPG" type="image/">
+        <img src="Imagens/ChatGPT Image Jan 7, 2026, 09_04_02 PM.png" alt="Aulas de russo">
+    </picture>
+    <img src="Imagens/IRPF2025 (1).webp" alt="">
+    <h1>Reproduzindo áudio</h1>
+    <p>Hoje vamos reproduzir um àudio</p>
+    <audio src="midia/19th Floor - Bobby Richards.mp3" controls autoplay></audio>
+    <audio src="midia/releasing-this-form.wav" controls></audio>
+    <!--Os formatos de áudio: MP3 WAV OGG-->
+    <audio preload="metadata"autoplay loop></audio>
+        <source="midia/releasing-this-form.wav" type="audio/wav">
+        
+        <p>O navegador não consegue reproduzir esse áudio, clique </p> <a href="midia/releasing-this-form.wav">aqui</a> 
+    </audio>
+    
+</body>
+</html>
