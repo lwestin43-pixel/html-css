@@ -13,6 +13,7 @@
         thead {background-color: beige; color: black;}
 
         tfoot { }
+        caption {font-size: 1.5em; font-weight: bold; padding: 10px; background-color: beige;}
     </style>
 </head>
 <body>
@@ -20,8 +21,8 @@
     <table>
 <thead>
     <tr>
-        <th>Estado</th>
-        <th>População</th>
+        <th scope="col">Estado</th>
+        <th scope="col" style="width: 50px;">População</th>
     </tr>
 </thead>
 <tbody>
@@ -43,10 +44,12 @@
         </tr>
     </tbody>
     <tfoot>
+        
 <tr>
-    <th> Total de habitantes</th>
+    <th scope="row"> Total de habitantes</th>
     <td> 212 M.</td>
 </tr>
+<caption>População dos estados</caption>
         </tfoot>
     </table>
 </body>
